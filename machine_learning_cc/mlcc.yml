@@ -1,5 +1,5 @@
 # type the below two lines into your terminal:
-# conda env create --file mlcc.yml
+# conda env create --file machine_learning_cc/mlcc.yml
 # conda activate mlcc
 
 name: mlcc
@@ -11,7 +11,7 @@ dependencies:
   - ipython
   - matplotlib
   - pandas
-  - sklearn
+  - scikit-learn
   - scipy
   - seaborn
 
@@ -23,4 +23,4 @@ dependencies:
 
 # If you update the `mlcc.yml` you can run the following to update the
 # environment with your changes:
-# conda env update --file mlcc.yml --prune
+# conda env update --file machine_learning_cc/mlcc.yml --prune
