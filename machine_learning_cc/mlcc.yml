@@ -1,0 +1,26 @@
+# type the below two lines into your terminal:
+# conda env create --file mlcc.yml
+# conda activate mlcc
+
+name: mlcc
+
+dependencies:
+  - python
+  - tensorflow
+  - jupyter
+  - ipython
+  - matplotlib
+  - pandas
+  - sklearn
+  - scipy
+  - seaborn
+
+# to verify environments:
+# conda info --envs
+
+# to remove environment:
+# conda env remove -n mlcc
+
+# If you update the `mlcc.yml` you can run the following to update the
+# environment with your changes:
+# conda env update --file mlcc.yml --prune
